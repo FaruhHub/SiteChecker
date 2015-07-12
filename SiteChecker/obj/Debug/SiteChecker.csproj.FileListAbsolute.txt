@@ -1,0 +1,11 @@
+C:\Users\Faruh\Documents\GitHub\SiteChecker\SiteChecker\bin\Debug\SiteChecker.exe.config
+C:\Users\Faruh\Documents\GitHub\SiteChecker\SiteChecker\bin\Debug\SiteChecker.exe
+C:\Users\Faruh\Documents\GitHub\SiteChecker\SiteChecker\bin\Debug\SiteChecker.pdb
+C:\Users\Faruh\Documents\GitHub\SiteChecker\SiteChecker\obj\Debug\SiteChecker.MainForm.resources
+C:\Users\Faruh\Documents\GitHub\SiteChecker\SiteChecker\obj\Debug\SiteChecker.Properties.Resources.resources
+C:\Users\Faruh\Documents\GitHub\SiteChecker\SiteChecker\obj\Debug\SiteChecker.csproj.GenerateResource.Cache
+C:\Users\Faruh\Documents\GitHub\SiteChecker\SiteChecker\obj\Debug\SiteChecker.exe
+C:\Users\Faruh\Documents\GitHub\SiteChecker\SiteChecker\obj\Debug\SiteChecker.pdb
+C:\Users\Faruh\Documents\GitHub\SiteChecker\SiteChecker\obj\Debug\SiteChecker.csprojResolveAssemblyReference.cache
+C:\Users\Faruh\Documents\GitHub\SiteChecker\SiteChecker\bin\Debug\Ninject.dll
+C:\Users\Faruh\Documents\GitHub\SiteChecker\SiteChecker\bin\Debug\Ninject.xml
