@@ -48,7 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Checker.cs" />
+    <Compile Include="GetConstructor.cs" />
     <Compile Include="IChecker.cs" />
+    <Compile Include="ILogWrite.cs" />
+    <Compile Include="LogToBoth.cs" />
+    <Compile Include="LogToFile.cs" />
+    <Compile Include="LogToScreen.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,7 +62,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestClass.cs" />
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

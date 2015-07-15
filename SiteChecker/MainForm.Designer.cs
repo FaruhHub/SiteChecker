@@ -35,6 +35,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.rbtnScreen = new System.Windows.Forms.RadioButton();
+            this.rbtnFile = new System.Windows.Forms.RadioButton();
+            this.rbtnBoth = new System.Windows.Forms.RadioButton();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSubmit
@@ -114,11 +118,63 @@
             this.richTextBox1.TabIndex = 24;
             this.richTextBox1.Text = "";
             // 
+            // rbtnScreen
+            // 
+            this.rbtnScreen.AutoSize = true;
+            this.rbtnScreen.Checked = true;
+            this.rbtnScreen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.rbtnScreen.Location = new System.Drawing.Point(445, 122);
+            this.rbtnScreen.Name = "rbtnScreen";
+            this.rbtnScreen.Size = new System.Drawing.Size(74, 24);
+            this.rbtnScreen.TabIndex = 25;
+            this.rbtnScreen.TabStop = true;
+            this.rbtnScreen.Text = "Экран";
+            this.rbtnScreen.UseVisualStyleBackColor = true;
+            this.rbtnScreen.Click += new System.EventHandler(this.rbtnScreen_CheckedChanged);
+            // 
+            // rbtnFile
+            // 
+            this.rbtnFile.AutoSize = true;
+            this.rbtnFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.rbtnFile.Location = new System.Drawing.Point(525, 122);
+            this.rbtnFile.Name = "rbtnFile";
+            this.rbtnFile.Size = new System.Drawing.Size(70, 24);
+            this.rbtnFile.TabIndex = 26;
+            this.rbtnFile.Text = "Файл";
+            this.rbtnFile.UseVisualStyleBackColor = true;
+            this.rbtnFile.Click += new System.EventHandler(this.rbtnFile_CheckedChanged);
+            // 
+            // rbtnBoth
+            // 
+            this.rbtnBoth.AutoSize = true;
+            this.rbtnBoth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.rbtnBoth.Location = new System.Drawing.Point(601, 122);
+            this.rbtnBoth.Name = "rbtnBoth";
+            this.rbtnBoth.Size = new System.Drawing.Size(122, 24);
+            this.rbtnBoth.TabIndex = 27;
+            this.rbtnBoth.Text = "Совместный";
+            this.rbtnBoth.UseVisualStyleBackColor = true;
+            this.rbtnBoth.Click += new System.EventHandler(this.rbtnBoth_CheckedChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(452, 83);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(222, 20);
+            this.label3.TabIndex = 28;
+            this.label3.Text = "Режим вывода результатов";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(777, 386);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.rbtnBoth);
+            this.Controls.Add(this.rbtnFile);
+            this.Controls.Add(this.rbtnScreen);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label2);
@@ -143,6 +199,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RadioButton rbtnScreen;
+        private System.Windows.Forms.RadioButton rbtnFile;
+        private System.Windows.Forms.RadioButton rbtnBoth;
+        private System.Windows.Forms.Label label3;
     }
 }
 

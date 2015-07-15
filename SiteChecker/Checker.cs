@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using System.Net;
 using System.Text;
 using System.Windows.Forms;
@@ -84,7 +83,6 @@ namespace SiteChecker
 
             finally
             {
-                string filePath = @"C:\Users\Faruh\Documents\GitHub\SiteChecker\LogFile.txt";
                 StringBuilder newContent = new StringBuilder();
                 DateTime date = DateTime.Now;
 
@@ -95,22 +93,6 @@ namespace SiteChecker
                                     "\nКод статуса: "      + lblCause +
                                   "\n");
                 all = newContent.ToString();
-                
-                //---делаем логгирование полученных результатов в файл---------------------
-                if (!File.Exists(filePath))
-                {
-                    using (FileStream fs = File.Create(filePath))
-                    {
-                        File.WriteAllText(filePath, newContent.ToString(), Encoding.UTF8);
-                        fs.Close();
-                    }
-                }
-                else
-                {
-                    string currentContent = File.ReadAllText(filePath, Encoding.UTF8);
-                    File.WriteAllText(filePath, newContent + currentContent, Encoding.UTF8);
-                }
-                //--------------------------------------------------------------------------
             }
             return all; //возвращаем полученные данные в интерфейс приложения
         }

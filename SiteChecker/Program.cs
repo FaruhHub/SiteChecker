@@ -32,10 +32,6 @@ namespace SiteChecker
             //--Связываем интерфейс с классом-
             Bind<IChecker>().To<Checker>();
             //--------------------------------
-
-            //------------------------------
-            //Bind<IChecker>().To<TestClass>();
-            //------------------------------
         }
     }
     public class MyDependencyResolver
